@@ -4,7 +4,7 @@ import {
   FiCheckSquare,
   FiPackage,
   FiAlertTriangle,
-  FiQrCode,
+  FiGrid,
   FiCheck,
   FiArrowRight,
   FiUser,
@@ -95,7 +95,7 @@ const TechnicianDashboard = () => {
           }}
           className="inline-flex items-center gap-2 px-6 py-3.5 bg-amber-600 hover:bg-amber-500 text-white font-bold text-xs rounded-2xl shadow-lg shadow-amber-600/30 transition shrink-0 self-start md:self-auto"
         >
-          <FiQrCode className="w-5 h-5" /> Scan / Verify Student Pass
+          <FiGrid className="w-5 h-5" /> Scan / Verify Student Pass
         </button>
       </div>
 

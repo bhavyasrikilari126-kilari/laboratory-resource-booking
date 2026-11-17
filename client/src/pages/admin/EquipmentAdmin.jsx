@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FiPackage, FiPlus, FiQrCode, FiEdit2, FiTrash2 } from 'react-icons/fi';
+import { FiPackage, FiPlus, FiGrid, FiEdit2, FiTrash2 } from 'react-icons/fi';
 import toast from 'react-hot-toast';
 import equipmentService from '../../services/equipment.service';
 import departmentService from '../../services/department.service';
@@ -139,7 +139,7 @@ const EquipmentAdmin = () => {
                       onClick={() => setQrItem(item)}
                       className="p-1.5 rounded-lg border border-gray-200 text-gray-600 hover:bg-gray-50 transition inline-flex items-center gap-1 font-bold text-[11px]"
                     >
-                      <FiQrCode className="w-4 h-4 text-indigo-600" /> Print QR
+                      <FiGrid className="w-4 h-4 text-indigo-600" /> Print QR
                     </button>
                   </td>
                 </tr>

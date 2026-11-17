@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useSearchParams, Link } from 'react-router-dom';
 import {
-  FiSparkles,
+  FiStar,
   FiSearch,
   FiPackage,
   FiCompass,
@@ -96,7 +96,7 @@ const AiAssistantPage = () => {
       <div className="bg-gradient-to-r from-indigo-900 via-indigo-800 to-violet-950 rounded-3xl p-6 sm:p-8 text-white shadow-xl">
         <div className="max-w-2xl">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-indigo-500/20 text-indigo-200 text-xs font-bold border border-indigo-400/30 mb-3">
-            <FiSparkles className="text-indigo-400" /> SMARTLAB AI Intelligence Engine
+            <FiStar className="text-indigo-400" /> SMARTLAB AI Intelligence Engine
           </div>
           <h1 className="text-2xl sm:text-3xl font-black text-white tracking-tight">
             AI Resource Recommendation & Natural Search

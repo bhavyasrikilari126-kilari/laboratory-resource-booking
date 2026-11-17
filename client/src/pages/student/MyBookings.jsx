@@ -5,7 +5,7 @@ import {
   FiClock,
   FiCheckCircle,
   FiXCircle,
-  FiQrCode,
+  FiGrid,
   FiAlertTriangle,
   FiFileText,
 } from 'react-icons/fi';
@@ -157,7 +157,7 @@ const MyBookings = () => {
                     onClick={() => setSelectedPass(b)}
                     className="flex-1 py-2 px-3 bg-emerald-50 text-emerald-700 hover:bg-emerald-100 rounded-xl text-xs font-bold transition flex items-center justify-center gap-1.5"
                   >
-                    <FiQrCode className="w-4 h-4" /> View Digital Pass
+                    <FiGrid className="w-4 h-4" /> View Digital Pass
                   </button>
                 )}
 

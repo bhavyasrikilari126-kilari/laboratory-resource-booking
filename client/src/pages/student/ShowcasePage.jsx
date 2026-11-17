@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import {
-  FiSparkles,
+  FiStar,
   FiHeart,
   FiMessageSquare,
   FiPlus,
@@ -116,7 +116,7 @@ const ShowcasePage = () => {
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
         <div>
           <h1 className="text-2xl font-black text-gray-900 tracking-tight flex items-center gap-2">
-            <FiSparkles className="text-indigo-600" /> Student Innovation Showcase
+            <FiStar className="text-indigo-600" /> Student Innovation Showcase
           </h1>
           <p className="text-xs text-gray-500 mt-1">
             Display completed hardware prototypes, share open project descriptions, and receive feedback from college peers & faculty.

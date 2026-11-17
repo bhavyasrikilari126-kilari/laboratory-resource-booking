@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FiCheckSquare, FiClock, FiCalendar, FiMapPin, FiShield, FiQrCode } from 'react-icons/fi';
+import { FiCheckSquare, FiClock, FiCalendar, FiMapPin, FiShield, FiGrid } from 'react-icons/fi';
 import labPassService from '../../services/labPass.service';
 import Badge from '../../components/common/Badge';
 import LoadingSpinner from '../../components/common/LoadingSpinner';

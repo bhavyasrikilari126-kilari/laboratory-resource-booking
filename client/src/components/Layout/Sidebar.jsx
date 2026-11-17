@@ -9,7 +9,7 @@ import {
   FiUsers,
   FiAward,
   FiBookOpen,
-  FiSparkles,
+  FiStar,
   FiCheckSquare,
   FiClock,
   FiAlertTriangle,
@@ -37,8 +37,8 @@ const Sidebar = ({ isOpen, closeSidebar }) => {
     { to: '/teams', label: 'Team Finder', icon: FiUsers },
     { to: '/mentorship', label: 'Faculty Mentorship', icon: FiAward },
     { to: '/learning', label: 'Learning Hub', icon: FiBookOpen },
-    { to: '/showcase', label: 'Innovation Showcase', icon: FiSparkles },
-    { to: '/ai-assistant', label: 'AI Resource Assistant', icon: FiSparkles },
+    { to: '/showcase', label: 'Innovation Showcase', icon: FiStar },
+    { to: '/ai-assistant', label: 'AI Resource Assistant', icon: FiStar },
   ];
 
   const facultyLinks = [
